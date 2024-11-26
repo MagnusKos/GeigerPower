@@ -2781,6 +2781,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 105.41) (xy 29.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5ea413-6971-482e-be70-9f7c6e676c22")
+	)
+	(wire
+		(pts
 			(xy 83.82 105.41) (xy 83.82 116.84)
 		)
 		(stroke
@@ -3911,16 +3921,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 105.41) (xy 29.21 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e86ba2bc-772d-46a7-820d-5e9da3d38654")
-	)
-	(wire
-		(pts
 			(xy 233.68 87.63) (xy 236.22 87.63)
 		)
 		(stroke
@@ -4640,7 +4640,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19bd83fd-bcd8-4076-bd35-92c26c2785e0")
 		(property "Reference" "J1"
 			(at 20.955 98.2683 0)
@@ -7127,16 +7126,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 259.08 119.38 0)
+		(at 259.08 121.92 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a263381d-2da1-477e-8e9d-8df247667708")
 		(property "Reference" "J2"
-			(at 259.7912 119.4378 0)
+			(at 259.7912 121.8622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7144,7 @@
 			)
 		)
 		(property "Value" "ConnPulse"
-			(at 259.7912 121.8621 0)
+			(at 259.7912 119.4379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7153,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
-			(at 259.08 119.38 0)
+			(at 259.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 119.38 0)
+			(at 259.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7171,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 259.08 119.38 0)
+			(at 259.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
