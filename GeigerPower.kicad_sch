@@ -4009,6 +4009,98 @@
 		)
 		(uuid "fd35403a-d160-4de5-9b9a-f8c36cef9a73")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 236.22 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "131ad90c-a1fa-4711-bcd3-929a3545715b")
+		(property "Netclass" "High Voltage"
+			(at 236.9185 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 250.19 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2baa30c-b276-465b-ae66-e92c8664660a")
+		(property "Netclass" "High Voltage"
+			(at 250.8885 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 222.25 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb8c8f90-3229-45bb-8756-d27d2dc936f6")
+		(property "Netclass" "High Voltage"
+			(at 222.9485 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 195.58 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f12d40aa-e773-47eb-8625-afb483abaf1f")
+		(property "Netclass" "High Voltage"
+			(at 196.2785 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 252.73 73.66 0)
@@ -5525,10 +5617,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4941840c-e13b-494b-8f56-3a6d78e845d1")
 		(property "Reference" "R7"
-			(at 228.6 48.1795 90)
+			(at 228.6 57.0117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5627,7 @@
 			)
 		)
 		(property "Value" "1M 500V"
-			(at 228.6 50.6038 90)
+			(at 228.6 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7535,7 @@
 		(dnp no)
 		(uuid "b428d9ea-6f59-4721-8b6a-56884e47050d")
 		(property "Reference" "R10"
-			(at 247.904 48.1217 90)
+			(at 247.396 57.2657 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +7544,7 @@
 			)
 		)
 		(property "Value" "5.6M 500V"
-			(at 247.904 50.546 90)
+			(at 247.396 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)

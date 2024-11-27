@@ -138,7 +138,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -149,7 +149,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -160,7 +160,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -451,13 +451,35 @@
         "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.7,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "High Voltage",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(C10-Pad1)": "High Voltage",
+      "Net-(C11-Pad1)": "High Voltage",
+      "Net-(D7-K)": "High Voltage",
+      "Net-(H1-Pad1)": "High Voltage"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
